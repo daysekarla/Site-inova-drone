@@ -1,0 +1,45 @@
+/**
+ * ⚠️ THEME CONFIGURATION — Tailwind v4
+ * INOVA DRONE — agritech premium palette (deep green / black / white / amber-orange)
+ */
+@theme {
+	/* Brand */
+	--color-brand: #0f2e1c;
+	--color-brand-deep: #0a2114;
+	--color-brand-mid: #17512f;
+	--color-brand-light: #2e7d46;
+	--color-amber: #f5a516;
+	--color-amber-soft: #ffbe3d;
+	--color-orange: #f97316;
+
+	/* Semantic */
+	--color-primary: #0f2e1c;
+	--color-primary-foreground: #ffffff;
+
+	--color-secondary: #17512f;
+	--color-secondary-foreground: #ffffff;
+
+	--color-accent: #f5a516;
+	--color-accent-foreground: #0a2114;
+
+	--color-destructive: #dc2626;
+	--color-destructive-foreground: #ffffff;
+
+	--color-muted: #f2f5f1;
+	--color-muted-foreground: #5b6b60;
+
+	--color-border: #e3e9e3;
+	--color-input: #e3e9e3;
+	--color-ring: #f5a516;
+
+	/* Fonts */
+	--font-sans: 'Inter', system-ui, sans-serif;
+	--font-display: 'Sora', 'Inter', sans-serif;
+
+	/* Radius */
+	--radius-sm: 0.5rem;
+	--radius-md: 0.75rem;
+	--radius-lg: 1.25rem;
+	--radius-xl: 1.75rem;
+	--radius-2xl: 2.25rem;
+}
