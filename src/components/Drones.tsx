@@ -1,11 +1,11 @@
 import { MessageCircle, ArrowRight } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { whatsappLink } from '@/lib/site-config';
-import t25 from '@/assets/uploads/drone-t25p-real.png';
-import t70 from '@/assets/uploads/drone-t70p-real.png';
-import t100 from '@/assets/uploads/drone-t100-real.png';
-import t55 from '@/assets/uploads/drone-t55.png';
-import t100dupla from '@/assets/uploads/drone-t100-dupla.png';
+import t25 from "@/assets/uploads/drone-t25p.png";
+import t55 from "@/assets/uploads/drone-t55.png"
+import t70 from "@/assets/uploads/drone-t70p.png";
+import t100 from "@/assets/uploads/drone-t100.png";
+import t100dupla from '@/assets/uploads/drone-t100-bateria-dupla.png';
 
 const DRONES = [
 {

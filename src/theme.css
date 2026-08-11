@@ -1,45 +1,60 @@
-/**
- * ⚠️ THEME CONFIGURATION — Tailwind v4
- * INOVA DRONE — agritech premium palette (deep green / black / white / amber-orange)
- */
 @theme {
-	/* Brand */
-	--color-brand: #0f2e1c;
-	--color-brand-deep: #0a2114;
-	--color-brand-mid: #17512f;
-	--color-brand-light: #2e7d46;
-	--color-amber: #f5a516;
-	--color-amber-soft: #ffbe3d;
-	--color-orange: #f97316;
 
-	/* Semantic */
-	--color-primary: #0f2e1c;
-	--color-primary-foreground: #ffffff;
+  /* ============================
+     IDENTIDADE VISUAL
+     ============================ */
 
-	--color-secondary: #17512f;
-	--color-secondary-foreground: #ffffff;
+/* Azul - Marca */
+--color-brand: #0A5D8F;
+--color-brand-deep: #35424B;
+--color-brand-light: #2B84B8;
 
-	--color-accent: #f5a516;
-	--color-accent-foreground: #0a2114;
+/* Verde */
+--color-agro: #2E7D32;
+--color-agro-light: #43A047;
 
-	--color-destructive: #dc2626;
-	--color-destructive-foreground: #ffffff;
+/* Dourado */
+--color-amber: #4590C8;
+--color-amber-soft: #D8AE46;
 
-	--color-muted: #f2f5f1;
-	--color-muted-foreground: #5b6b60;
+  /* ============================
+     CORES SEMÂNTICAS
+     ============================ */
 
-	--color-border: #e3e9e3;
-	--color-input: #e3e9e3;
-	--color-ring: #f5a516;
+  --color-primary: var(--color-brand);
+  --color-primary-foreground: #FFFFFF;
 
-	/* Fonts */
-	--font-sans: 'Inter', system-ui, sans-serif;
-	--font-display: 'Sora', 'Inter', sans-serif;
+  --color-secondary: var(--color-agro);
+  --color-secondary-foreground: #FFFFFF;
 
-	/* Radius */
-	--radius-sm: 0.5rem;
-	--radius-md: 0.75rem;
-	--radius-lg: 1.25rem;
-	--radius-xl: 1.75rem;
-	--radius-2xl: 2.25rem;
+  --color-accent: var(--color-amber);
+  --color-accent-foreground: #222222;
+
+  --color-destructive: #DC2626;
+  --color-destructive-foreground: #FFFFFF;
+
+  --color-muted: #F6F8FA;
+  --color-muted-foreground: #666666;
+
+  --color-border: #E5E7EB;
+  --color-input: #E5E7EB;
+
+  --color-ring: var(--color-brand);
+
+  /* ============================
+     FONTES
+     ============================ */
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Sora', 'Inter', sans-serif;
+
+  /* ============================
+     BORDAS
+     ============================ */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --radius-2xl: 2.25rem;
 }
