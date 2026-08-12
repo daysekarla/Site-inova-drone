@@ -1,6 +1,6 @@
 import { MessageCircle, ChevronDown } from 'lucide-react';
 import { whatsappLink } from '@/lib/site-config';
-import heroImg from '@/assets/generated/hero-drone.jpg';
+import heroImg from '@/assets/generated/hero-drone.jpeg';
 
 export function Hero() {
   const quote = whatsappLink('Olá! Gostaria de solicitar um orçamento de drone agrícola DJI.');
