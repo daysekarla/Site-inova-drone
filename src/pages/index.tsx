@@ -8,6 +8,7 @@ import { Team } from '@/components/Team';
 import { Location } from '@/components/Location';
 import { Footer } from '@/components/Footer';
 import { WhatsAppFloat } from '@/components/WhatsAppFloat';
+import { Deliveries } from '@/components/Deliveries';
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
 				<Hero />
 				<About />
 				<Drones />
+				<Deliveries />
 				<WhyChoose />
 				<QuoteForm />
 				<Team />

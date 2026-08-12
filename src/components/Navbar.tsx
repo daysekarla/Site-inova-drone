@@ -7,6 +7,7 @@ const LINKS = [
   { label: 'Início', href: '#hero' },
   { label: 'Quem Somos', href: '#sobre' },
   { label: 'Drones', href: '#drones' },
+  { label: 'Clientes', href: '#entregas'},
   { label: 'Diferenciais', href: '#porque' },
   { label: 'Equipe', href: '#equipe' },
   { label: 'Localização', href: '#localizacao' },

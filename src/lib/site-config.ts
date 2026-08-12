@@ -6,10 +6,10 @@ export const WHATSAPP_NUMBER = '5594992489276'; // formato internacional, sem �
 export const CONTACT = {
 	phoneDisplay: '(94) 99248-9276',
 	email: 'inovadronefinanceiro@gmail.com',
-	cnpj: '63.363.521/0001-95',
+	cnpj: '62.363.921/0001-95',
 	address: 'Casa de Tábua - Pará',
-	instagram: 'https://instagram.com/inovadrone',
-	facebook: 'https://facebook.com/inovadrone',
+	instagram: 'https://instagram.com/inova_drone',
+	facebook: 'https://www.facebook.com/profile.php?id=61593394942550',
 };
 
 export function whatsappLink(message: string, number: string = WHATSAPP_NUMBER): string {

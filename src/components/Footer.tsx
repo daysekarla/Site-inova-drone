@@ -1,5 +1,7 @@
-import { MessageCircle, Phone, Mail } from "lucide-react";
-import { CONTACT, whatsappLink } from "@/lib/site-config";
+import { MessageCircle, Phone, Mail } from 'lucide-react';
+import { CONTACT, whatsappLink } from '@/lib/site-config';
+import logo from '@/assets/uploads/logo-inova.png';
+
 
 function FacebookIcon({ className }: { className?: string }) {
   return (
@@ -8,6 +10,7 @@ function FacebookIcon({ className }: { className?: string }) {
     </svg>
   );
 }
+
 
 function InstagramIcon({ className }: { className?: string }) {
   return (
@@ -27,25 +30,28 @@ function InstagramIcon({ className }: { className?: string }) {
   );
 }
 
+
 export function Footer() {
-  const wpp = whatsappLink("Olá! Vim pelo site da INOVA DRONE.");
+  const wpp = whatsappLink(
+    'Olá! Vim pelo site da INOVA DRONE.'
+  );
+
 
   return (
     <footer className="bg-brand-deep pt-16 pb-8 text-white">
       <div className="mx-auto max-w-7xl px-5">
+
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
 
-          {/* Logo */}
+          {/* Logo e descrição */}
           <div>
-            <div className="flex items-center gap-2">
-              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber text-base font-extrabold text-brand-deep">
-                ID
-              </span>
-
-              <span className="font-display text-xl font-extrabold">
-                INOVA <span className="text-amber">DRONE</span>
-              </span>
-            </div>
+            <a href="#hero" className="inline-flex items-center">
+              <img
+                src={logo}
+                alt="Inova Drone Tecnologia Agropecuária"
+                className="w-[190px] h-auto object-contain"
+              />
+            </a>
 
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/70">
               Revenda especializada em drones agrícolas DJI, assistência técnica
@@ -53,79 +59,95 @@ export function Footer() {
             </p>
           </div>
 
+
           {/* Contato */}
           <div>
-            <h4 className="font-display text-sm font-bold uppercase tracking-wider text-amber">
+            <h4 className="font-display text-sm font-bold uppercase tracking-wider text-white">
               Contato
             </h4>
 
             <ul className="mt-4 flex flex-col gap-3 text-sm text-white/80">
+
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-amber" />
+                <Phone className="h-4 w-4 text-white" />
                 {CONTACT.phoneDisplay}
               </li>
 
               <li className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-amber" />
+                <Mail className="h-4 w-4 text-white" />
                 {CONTACT.email}
               </li>
 
               <li className="flex items-center gap-2">
-                <MessageCircle className="h-4 w-4 text-amber" />
+                <MessageCircle className="h-4 w-4 text-white" />
                 {CONTACT.address}
               </li>
+
             </ul>
           </div>
 
+
           {/* Redes Sociais */}
           <div>
-            <h4 className="font-display text-sm font-bold uppercase tracking-wider text-amber">
+            <h4 className="font-display text-sm font-bold uppercase tracking-wider text-white">
               Redes Sociais
             </h4>
 
             <div className="mt-4 flex gap-3">
+
+              {/* Instagram */}
               <a
                 href={CONTACT.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-amber hover:text-brand-deep"
+                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-[#2E7D32] hover:text-white"
               >
                 <InstagramIcon className="h-5 w-5" />
               </a>
 
+
+              {/* Facebook */}
               <a
                 href={CONTACT.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-amber hover:text-brand-deep"
+                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-[#2E7D32] hover:text-white"
               >
                 <FacebookIcon className="h-5 w-5" />
               </a>
 
+
+              {/* WhatsApp */}
               <a
                 href={wpp}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
-                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-amber hover:text-brand-deep"
+                className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 transition-all duration-300 hover:bg-[#2E7D32] hover:text-white"
               >
                 <MessageCircle className="h-5 w-5" />
               </a>
+
             </div>
+
 
             <p className="mt-5 text-xs text-white/50">
               CNPJ: {CONTACT.cnpj}
             </p>
           </div>
+
         </div>
 
+
+        {/* Direitos autorais */}
         <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/50">
           © {new Date().getFullYear()} INOVA DRONE TECNOLOGIA AGROPECUÁRIA LTDA.
           <br />
           Todos os direitos reservados.
         </div>
+
       </div>
     </footer>
   );

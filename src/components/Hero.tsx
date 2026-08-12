@@ -1,6 +1,6 @@
-import { MessageCircle, ChevronDown, Sparkles } from 'lucide-react';
+import { MessageCircle, ChevronDown } from 'lucide-react';
 import { whatsappLink } from '@/lib/site-config';
-import heroImg from '@/assets/generated/hero-drone.png';
+import heroImg from '@/assets/generated/hero-drone.jpg';
 
 export function Hero() {
   const quote = whatsappLink('Olá! Gostaria de solicitar um orçamento de drone agrícola DJI.');
@@ -12,8 +12,8 @@ export function Hero() {
 
 			<div data-ev-id="ev_03a74272a6" className="relative mx-auto w-full max-w-7xl px-5 pt-28 pb-20">
 				<div data-ev-id="ev_ffa69cbe84" className="max-w-2xl">
-					<span data-ev-id="ev_0689cc7d56" className="mb-5 inline-flex items-center gap-2 rounded-full border border-amber/40 bg-amber/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber-soft">
-						<Sparkles className="h-3.5 w-3.5" /> Revenda autorizada DJI Agras
+					<span className="mb-5 inline-flex items-center rounded-full border border-white/40 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-white">
+ 								 Revenda autorizada DJI Agriculture
 					</span>
 					<h1 data-ev-id="ev_3740754d4f" className="font-display text-4xl font-extrabold leading-[1.08] text-white text-balance sm:text-5xl lg:text-6xl">
 						Tecnologia <span data-ev-id="ev_5d88a738a8" className="text-amber">DJI</span> para transformar a produtividade no campo
@@ -22,13 +22,14 @@ export function Hero() {
 						Revenda especializada em drones agrícolas DJI, assistência técnica autorizada, peças originais e suporte completo para produtores rurais.
 					</p>
 					<div data-ev-id="ev_5f5d4cdca8" className="mt-9 flex flex-col gap-4 sm:flex-row">
-						<a data-ev-id="ev_af038ed0f5"
-            href={quote}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group flex items-center justify-center gap-2 rounded-full bg-amber px-8 py-4 text-base font-bold text-brand-deep shadow-[0_15px_40px_-10px_rgba(245,165,22,0.7)] transition-all hover:scale-[1.03] hover:bg-amber-soft">
-
-							<MessageCircle className="h-5 w-5" /> Solicitar Orçamento
+						<a
+  			href={quote}
+  			target="_blank"
+  			rel="noopener noreferrer"
+  			className="group flex items-center justify-center gap-2 rounded-full bg-[#0A66C2] px-8 py-4 text-base font-bold text-white shadow-[0_15px_40px_-10px_rgba(10,102,194,0.5)] transition-all duration-300 hover:scale-[1.03] hover:bg-[#2E7D32] active:scale-[0.98] active:bg-[#2E7D32]"
+>
+  					<MessageCircle className="h-5 w-5" />
+ 						 Solicitar Orçamento
 						</a>
 						<a data-ev-id="ev_300110c5f8"
             href="#drones"
@@ -41,7 +42,7 @@ export function Hero() {
 					<div data-ev-id="ev_2cdf63b69c" className="mt-12 flex flex-wrap gap-8">
 						{[
             { n: '100%', l: 'Peças originais DJI' },
-            { n: '+500', l: 'Hectares pulverizados' },
+            { n: '+50', l: 'Drones vendidos' },
             { n: '24/7', l: 'Suporte ao produtor' }].
             map((s) =>
             <div data-ev-id="ev_372c9d9290" key={s.l}>

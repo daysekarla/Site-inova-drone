@@ -3,11 +3,15 @@ import { Reveal } from '@/components/Reveal';
 import { whatsappLink } from '@/lib/site-config';
 import member1 from '@/assets/generated/team-1.png';
 import member2 from '@/assets/generated/team-2.png';
+import member3 from "@/assets/generated/team-3.jpg";
+import member4 from "@/assets/generated/team-4.jpeg";
 
-// 👥 Para adicionar novos vendedores, basta incluir mais objetos nesta lista.
+//  Para adicionar novos funcionarios, basta incluir nesta lista.
 const TEAM = [
-{ img: member1, name: 'Carlos Mendes', role: 'Consultor de Vendas', phone: '5591999999999' },
-{ img: member2, name: 'Ana Beatriz', role: 'Especialista em Agricultura de Precisão', phone: '5591999999999' }];
+{ img: member1, name: 'Dayse Karla', role: 'Consultor de Vendas', phone: '5594991553989' },
+{ img: member2, name: 'Samuel', role: 'Pos venda', phone: '5591999999999' },
+{ img: member3, name: 'Jefreson Menezes', role: 'Tecnico em Manutenção', phone: '5591999999999'},
+{ img: member4, name: 'Khaliny Vitoria', role: 'Consultor de Vendas', phone: '5594991223578'}];
 
 
 export function Team() {

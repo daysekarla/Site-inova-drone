@@ -59,7 +59,7 @@ export function Drones() {
               <Reveal key={d.name} delay={i * 120}>
 								<div data-ev-id="ev_ae67aded40" className="group flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-white shadow-[0_10px_30px_-15px_rgba(15,46,28,0.2)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_50px_-20px_rgba(15,46,28,0.35)]">
 									<div data-ev-id="ev_45a49e7c35" className="relative overflow-hidden bg-gradient-to-b from-muted to-white p-6">
-										<span data-ev-id="ev_9658a029f9" className="absolute left-5 top-5 z-10 rounded-full bg-brand-deep px-3 py-1 text-[11px] font-semibold text-amber">{d.tag}</span>
+										<span data-ev-id="ev_9658a029f9" className="absolute left-5 top-5 z-10 rounded-full bg-brand-deep px-3 py-1 text-[11px] font-semibold text-white">{d.tag}</span>
 										<img data-ev-id="ev_96202ff433" src={d.img} alt={d.name} className="mx-auto h-52 w-full object-contain transition-transform duration-500 group-hover:scale-110" />
 									</div>
 									<div data-ev-id="ev_726e97b752" className="flex flex-1 flex-col p-6">
