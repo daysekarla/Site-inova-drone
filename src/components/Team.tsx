@@ -4,8 +4,8 @@ import { whatsappLink } from '@/lib/site-config';
 
 import member1 from '@/assets/generated/team-1.png';
 import member2 from '@/assets/generated/team-2.png';
-import member3 from '@/assets/generated/team-3.jpg';
-import member4 from '@/assets/generated/team-4.jpeg';
+import member3 from '@/assets/generated/team-3.png';
+import member4 from '@/assets/generated/team-4.png';
 
 // Para adicionar novos funcionários, basta incluir mais um objeto nesta lista.
 const TEAM = [
