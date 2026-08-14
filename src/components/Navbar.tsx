@@ -7,7 +7,7 @@ const LINKS = [
   { label: 'Início', href: '#hero' },
   { label: 'Quem Somos', href: '#sobre' },
   { label: 'Drones', href: '#drones' },
-  { label: 'Clientes', href: '#entregas'},
+  { label: 'Clientes', href: '#entregas' },
   { label: 'Diferenciais', href: '#porque' },
   { label: 'Equipe', href: '#equipe' },
   { label: 'Localização', href: '#localizacao' },
@@ -62,7 +62,7 @@ export function Navbar() {
           ))}
         </nav>
 
-        {/* Botão */}
+        {/* Botão de orçamento */}
         <a
           href={quote}
           target="_blank"
