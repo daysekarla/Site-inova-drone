@@ -1,4 +1,4 @@
-import { MessageCircle, Phone, Mail } from 'lucide-react';
+import { MapPin, MessageCircle, Phone, Mail } from 'lucide-react';
 import { CONTACT, whatsappLink } from '@/lib/site-config';
 import logo from '@/assets/uploads/logo-inova.png';
 
@@ -79,7 +79,7 @@ export function Footer() {
               </li>
 
               <li className="flex items-center gap-2">
-                <MessageCircle className="h-4 w-4 text-white" />
+                <MapPin className="h-4 w-4 text-white" />
                 {CONTACT.address}
               </li>
 
